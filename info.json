@@ -1,0 +1,14 @@
+{
+	"name": "thruster-plasma-duct",
+	"version": "1.0.0",
+	"title": "Thruster Plasma Duct",
+	"author": "MsBinaryLily",
+	"description": "A plasma duct that works with thruster plasma from fusion thrusters mod.",
+	"factorio_version": "2.0",
+	"dependencies": [
+		"base >= 2.0",
+		"space-age",
+		"fusion-thruster",
+		"plasma-duct"
+		]
+}
