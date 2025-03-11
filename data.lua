@@ -10,6 +10,7 @@ item.order = "z[thruster-plasma-duct]"
 local duct = table.deepcopy(data.raw["pipe"]["plasma-duct"])
 duct.name = "thruster-plasma-duct"
 duct.minable.result = "thruster-plasma-duct"
+duct.fluid_box.volume = 100
 local pipe_connections = duct.fluid_box.pipe_connections
 for _, conn in ipairs(pipe_connections) do
     conn.connection_category = "plasma-thruster"
